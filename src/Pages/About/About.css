@@ -1,0 +1,33 @@
+.dev-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container  {
+  margin-top: 11%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about-container h5 {
+  font-weight: 400;
+  font-style: bold;
+  padding-bottom: 2%;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+
+}
+
+.card:hover{
+  transform: scale(1.05);
+  transition: all 100ms;
+  box-shadow: 2px 2px 28px rgb(34, 130, 255);  
+}
